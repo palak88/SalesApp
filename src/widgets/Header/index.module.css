@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid;
   height: 105px;
   gap: 0px;
   opacity: 0px;
@@ -9,6 +8,8 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 0;
 }
 
 .name {
@@ -21,7 +22,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border: 1px solid;
   height: 50%;
   align-items: center;
 }
@@ -35,9 +35,8 @@
 
 .navMenu {
   display: flex;
-  border: 1px solid;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   height: 50%;
   width: 100%;
 }
@@ -45,7 +44,9 @@
 .navMenuItems {
   display: flex;
   justify-content: space-between;
-  font-family: Encode Sans;
+  /* font-family: Encode Sans; */
   font-size: 14px;
   width: 472px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
 }
