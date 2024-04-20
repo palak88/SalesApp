@@ -1,4 +1,4 @@
-import { Banner, Header } from "../widgets";
+import { Banner, Header, MainContent } from "../widgets";
 
 import style from "./page.module.css";
 
@@ -7,6 +7,7 @@ export default function Home() {
     <div className={style.root}>
       <Header />
       <Banner />
+      <MainContent />
     </div>
   );
 }
