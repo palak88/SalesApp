@@ -30,6 +30,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - [Next.js](https://nextjs.org) - React JS framework to build server side apps.
 
-- [Axios] - To make API calls
+- [Axios](https://axios-http.com/) - To make API calls
 
 ------
