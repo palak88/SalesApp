@@ -13,7 +13,13 @@ export const ProductCard: React.FC<IProductCard> = ({ imageSrc, details }) => {
   return (
     <div className={style.card}>
       <div>
-        <img src={imageSrc} alt="card" className={style.productImage} />
+        <Image
+          src={imageSrc}
+          alt="card"
+          className={style.productImage}
+          width={2731}
+          height={4096}
+        />
 
         <Image
           src="/images/content/Bookmark.svg"
