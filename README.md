@@ -15,7 +15,7 @@ git clone https://github.com/palak88/salesassist.aiApp.git
 2. Install all the dependencies by runnig below command in the terminal or cmd
 
 ```
-yarn install
+npm install
 ```
 
 3. After installing all the dependencies, run the below command to start the development server:
