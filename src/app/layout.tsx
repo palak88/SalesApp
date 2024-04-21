@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Comme, Encode_Sans } from "next/font/google";
 import "./globals.css";
 
-const comma = Comme({ subsets: ["latin"] });
+const encode_sans = Encode_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "TANN TRIM",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={comma.className}>{children}</body>
+      <body className={encode_sans.className}>{children}</body>
     </html>
   );
 }
