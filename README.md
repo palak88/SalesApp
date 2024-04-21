@@ -32,4 +32,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - [Axios](https://axios-http.com/) - To make API calls
 
+## Deployed using Netlify
+
+- visit https://tann-trimm.netlify.app/
+
 ------
